@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Converter - Free Online Text Tool</title>
+    <meta name="description" content="Easily convert text between different cases: UPPER CASE, lower case, Title Case, camelCase, snake_case, and more. Free and works in your browser.">
+    <link rel="stylesheet" href="style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MKC4K7NVQK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MKC4K7NVQK');
+</script>
+<body>
+    <div class="container">
+        <h1>Online Case Converter Tool</h1>
+
+        <div class="button-group">
+            <button id="upper-case">UPPER CASE</button>
+            <button id="lower-case">lower case</button>
+            <button id="title-case">Title Case</button>
+            <button id="sentence-case">Sentence case</button>
+            <button id="camel-case">camelCase</button>
+            <button id="snake-case">snake_case</button>
+            <button id="kebab-case">kebab-case</button>
+        </div>
+
+        <textarea id="text-area" placeholder="Type or paste your text here..."></textarea>
+
+        <div class="button-group">
+            <button id="copy-text">Copy to Clipboard</button>
+            <button id="clear-text">Clear Text</button>
+        </div>
+
+        <div class="content">
+            <h2>How to Use This Case Converter</h2>
+            <p>Using this tool is incredibly simple. Just paste your text into the text area above, and then click on the button for the case you want to convert it to. For example, if you want to capitalize your text, click the "UPPER CASE" button. The text will be instantly converted to the desired format, ready for you to copy and use.</p>
+            <p>You can perform multiple conversions on the same text without having to re-paste it. When you're done, you can use the "Copy to Clipboard" button to copy the final text or "Clear Text" to start over.</p>
+
+            <h2>Understanding Common Text Cases</h2>
+            <dl>
+                <h3>What is Title Case?</h3>
+                <dd>Title Case is a style where the first letter of most words in a sentence is capitalized. It is commonly used for titles of books, articles, and headlines. For example: "This Is a Title".</dd>
+
+                <h3>What is Sentence case?</h3>
+                <dd>Sentence case is the standard capitalization for sentences, where only the first letter of the first word is capitalized, along with any proper nouns. For example: "This is a sentence."</dd>
+
+                <h3>What is camelCase?</h3>
+                <dd>camelCase is a naming convention used primarily in programming for variables and functions. It combines multiple words into one, with the first letter of each word after the first being capitalized. For example: myVariableName.</dd>
+
+                <h3>What is snake_case?</h3>
+                <dd>snake_case is another programming convention where all letters are lowercase and words are separated by underscores (_). For example: my_variable_name.</dd>
+            </dl>
+
+            <h2>Case Converter FAQ</h2>
+            <dl>
+                <h3>Is this tool free?</h3>
+                <dd>Yes, this online case converter is 100% free.</dd>
+
+                <h3>Does this tool save my data?</h3>
+                <dd>No. Your data is completely safe. All text conversion happens locally in your web browser. Nothing is ever sent to our server.</dd>
+            </dl>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
